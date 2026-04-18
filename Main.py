@@ -3,3 +3,5 @@
 usuario = "Fernando Alex de Souza"
 print(f"Olá mundo, aqui é o {usuario}")
 
+ferramentas = ["Git", "GitHub", "PyCharm"]
+print(f"Estudando: {ferramentas}")
