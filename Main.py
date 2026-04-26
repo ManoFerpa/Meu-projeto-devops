@@ -6,3 +6,5 @@ print(f"Olá mundo, aqui é o {usuario}")
 
 ferramentas = ["Git", "GitHub", "PyCharm"]
 print(f"Estudando: {ferramentas}")
+
+# Teste de alerta discord
