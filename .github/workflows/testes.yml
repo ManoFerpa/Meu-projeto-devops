@@ -1,0 +1,15 @@
+name: Testes-Unitarios-Fernando
+
+on: [push, pull_request]
+
+jobs:
+  job_testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+      - name: Executando os 5 Testes Unitarios
+        run: python -m unittest test_main.py
